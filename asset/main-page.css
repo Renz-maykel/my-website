@@ -16,6 +16,9 @@
     margin-top: 100px;
     margin-right: 5px;
 }
+.col-1 span{
+    color: #212A3E;
+}
 
 .col-2 {
     position: relative;
@@ -120,6 +123,17 @@
     }
 
 }
+@media only screen and (max-width: 1000px){
+    .skills-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 550px;
+        margin-top: 100px;
+    
+    }
+}
 
 @media only screen and (max-width: 700px) {
     nav .nav-links{
@@ -144,6 +158,9 @@
         display: block;
         cursor: pointer;
         margin: 15px;
+    }
+    .col-1{
+        padding-left: 1rem;
     }
    
 }
